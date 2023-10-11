@@ -1,0 +1,114 @@
+/* Import font here */
+*{
+    /* add font font-family */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    /* height:150px; */
+    border: 2px solid blue;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+}
+.s-container{
+    display: flex;
+    align-items: center;
+    border: 2px solid violet;
+}
+.big-box{
+    width:120px ;
+    height:120px;
+    border: 3px solid black;
+}
+.small-box{
+    width:80px;
+    height:80px;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Layout 2 */
+.container2{
+    border: 3px solid blue;
+    margin: 20px 0;
+    /* display: flex;
+    justify-content: center; another way to center*/
+}
+.layout2{
+   width: 100%;
+   max-width:500px;
+   margin: 20px auto;
+   padding: 0 20px 0 20px;
+   /* border: 2px solid rgb(30, 233, 30); */
+}
+.rectangle{
+    width: 100%;
+    height:50px;
+    border:2px solid black;
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid rgb(238, 21, 238);
+}
+
+.small-box2{
+    width:30.3333333333%;
+    height: 100px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+/* Layout 3 */
+.layout3{
+    /* width: 100%;
+    max-width: 700px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+}
+.rectangle-wrapper{
+    width: 45%;
+    
+}
+.rectangles{
+    border: 2px solid black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.rectangles:last-child{ /*same as last-of-type */
+    margin-bottom: 0;
+}
+.big-box2{
+    width: 45%;
+    /* height: 190px; */
+    border: 2px solid black;
+}
+
+/* Layout 4 */
+.layout4{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+}
+.rectangles3{
+ display: flex;
+ justify-content: space-between;
+}
+.small-rectangle{
+    width:30%;
+    height: 50px;
+    border: 2px solid black;
+}
